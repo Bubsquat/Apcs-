@@ -1,0 +1,31 @@
+{
+  "name": "apcs_node_server",
+  "version": "1.0.0",
+  "description": "server for final apcs processing game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bubsquat/SchoolWork.git"
+  },
+  "keywords": [
+    "socket",
+    "server",
+    "p5.js",
+    "node",
+    "processing"
+  ],
+  "author": "Kaian Langevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bubsquat/SchoolWork/issues"
+  },
+  "homepage": "https://github.com/Bubsquat/SchoolWork#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
