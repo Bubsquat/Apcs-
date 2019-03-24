@@ -29,7 +29,7 @@ io.sockets.on('connection', newConnection);
 
 function newConnection(socket) {
 
-	console.log('connection' + socket.id);
+	console.log('connection ' + socket.id);
 }
 
-// yo yo 1:37:51
+
