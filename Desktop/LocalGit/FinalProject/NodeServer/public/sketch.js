@@ -13,14 +13,14 @@ function setup() {
   socket = io.connect('https://localhost:3000');
 }
 
+var data = {
+	x: pX,
+	y: pY
+}
+
+
 function keyPressed(){
 	console.log(pX + ',' + pY);
-
-
-	var data = {
-		x: pX,
-		y: pY
-	}
 
 	socket.emit('position', data);
 }
@@ -29,3 +29,4 @@ function draw() {
   background(50);
   ellipse(pX, pY, pSize, pSize);
 }
+
