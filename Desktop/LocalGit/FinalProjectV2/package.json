@@ -1,0 +1,17 @@
+{
+	"name": "finalproject",
+	"version": "1.0.0",
+	"description": "Multiplayer game using node.js, p5.js, and socket.io",
+	"main": "index.js",
+	"keywords": [
+		"socket.io",
+		"node.js",
+		"p5.js"
+	],
+	"dependencies": {
+		"express": "^4.16.4",
+		"socket.io": "^2.0.3"
+	},
+	"repository": {},
+	"license": {}
+}
