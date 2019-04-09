@@ -1,8 +1,7 @@
 /*
-
- Hello world 
- 
- */
+  4/9/19
+  AP Compsci final project 
+*/
 
 // declaring public variables
 public char currentKey;
@@ -72,7 +71,7 @@ void draw() {
   for (int i = 0; i <= 63; i++) {
     totalState = totalState + squares[i].broadcast();
   }
-  if (totalState == 63) {
+  if (totalState == 64) {
     delay(5000);
     exit();
   }
